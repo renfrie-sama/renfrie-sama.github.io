@@ -18,7 +18,7 @@
   font-style: bold;
   font-weight: 600;
   font-display: swap;
-  src:  url('/Fonts/NeueMachina-Bold.woff2') format('woff2'),
+  src: url('/Fonts/NeueMachina-Bold.woff2') format('woff2'),
     url('/Fonts/NeueMachina-Bold.woff') format('woff');
 }
 
