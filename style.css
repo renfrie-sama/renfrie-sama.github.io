@@ -18,8 +18,8 @@
   font-style: bold;
   font-weight: 600;
   font-display: swap;
-  src: local("Neue Machina") url('./NeueMachina-Bold.woff2') format('woff2'),
-    url('./NeueMachina-Bold.woff') format('woff');
+  src: local("Neue Machina") url('NeueMachina-Bold.woff2') format('woff2'),
+    url('NeueMachina-Bold.woff') format('woff');
 }
 
 .body {
