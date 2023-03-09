@@ -131,6 +131,23 @@
   width: 284px;
 }
 
+.lead {
+  display: flex;  
+  justify-content: space-between;
+  width: 1000px;
+  padding: 48px 40px 4px 40px;
+}
+
+.text p{
+  margin-bottom: 25px;
+  font-family: "Circe";
+  font-size: 20px;  
+  line-height: 24px;
+  width: 685px;
+  color: #292826;
+  text-decoration: none;
+}
+
 .nav-footer {
   display: flex;
   flex-direction: row;
