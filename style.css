@@ -11,7 +11,9 @@
   font-display: swap;
   src: local("Circe") local("Circe-Regular") url('/Fonts/Circe-Regular.woff2') format('woff2'),
     url("/Fonts/Circe-Regular.woff") format("woff");
-
+}
+  
+@font-face {
   font-family: "Neue Machina";
   font-style: bold;
   font-weight: 600;
@@ -21,7 +23,7 @@
 }
 
 .body {
-  font-family: "Circe", regular;
+  font-family: "Circe", normal;
 }
 
 .new-collection {
