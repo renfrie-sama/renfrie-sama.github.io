@@ -1,0 +1,247 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Circe") local("Circe-Regular") url("/Circe/Circe-Regular.woff2") format("woff2"),
+    url("/Circe/Circe-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Neue Machina";
+  font-style: bold;
+  font-weight: 600;
+  font-display: swap;
+  src: local("Neue Machina") url("/Neue Machina/NeueMachina-Bold.woff2") format("woff2"),
+    url("/Neue Machina/NeueMachina-Bold.woff") format("woff");
+}
+
+.body {
+  font-family: "Circe", regular;
+}
+
+.new-collection {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 36px;
+  padding-left: 2px;
+  background-color: #ff3d00;
+  font-family: "Neue Machina";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.collection {  
+  margin-bottom: 6px;
+  color: #292826;
+}
+
+.collection:nth-child(4n+1) {
+    color: white;  
+  }
+
+.new-collection img {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-right: 0px;
+}
+
+.header-main {
+  background-image: url(https://i.ibb.co/7rN3ZwT/bg.png);
+  background-repeat: no-repeat;
+  width: 1000px;
+  height: 574px;
+}
+
+.menu {
+  display: flex;
+  margin-top: 0px;
+  margin-left: 39px;
+  margin-right: 26px;
+  line-height: 36px;
+  justify-content: space-between;
+}
+
+.nav {
+  display: inline-block;
+  flex-flow: row nowrap;
+  padding: 0;
+  margin-top: 10px;
+  margin-right: -2px;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.logo {
+  margin-top: 6px;
+}
+
+.nav a {
+  vertical-align: top;
+  margin-right: 14px;
+  color: #292826;
+  text-decoration: none;
+  
+}
+.nav img {
+  margin-top: 4px;
+}
+
+.title {
+  position: absolute;
+  margin-top: -14px;
+  margin-left: 33px;
+  color: #ff3d00;
+  font-family: "Neue Machina", bold;
+  font-size: 218px;
+  letter-spacing: -0.04em;
+  font-feature-settings: "salt" 2;
+  line-height: 220px;
+}
+
+.card-image {
+  position: relative;
+  width: 379px;
+  margin-top: -13px;
+  margin-left: 502px;
+}
+
+.descriptor {
+  position: absolute;
+  display: flex;  
+  margin-top: -271px;
+  margin-left: 40px;
+}
+
+.card-text {
+  font-family: "Circe";
+  font-style: regular;
+  font-size: 23px;
+  line-height: 24px;
+  width: 284px;
+}
+
+.nav-footer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.footer-menu {
+  margin-left: 40px;
+  margin-right: 32px;
+  width: 85px;
+  list-style-type: none;
+}
+
+
+.footer-item {
+  margin-top: -1px;
+  padding-bottom: 5px;  
+}
+
+.link {
+  font-family: "Circe";
+  font-style: regular;
+  font-size: 16px;
+  line-height: 24px;
+  color: #292826;
+  text-decoration: none;
+}
+
+.legend {
+  margin-top: 6px;
+  width: 260px;
+  font-family: "Circe";
+  font-style: regular;
+  font-size: 16px;
+  line-height: 16px;
+  color: #292826;
+  text-decoration: none;
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 274px;
+}
+
+.form-email {
+  box-sizing: border-box;
+  padding: 6px;
+  width: 214px;
+  height: 31px;
+  border-radius: 4px;
+  border: 1px solid #292826;
+  transition: 0.3s border-color;
+  font-family: "Circe";
+  font-style: regular;
+  font-size: 16px;
+  line-height: 18px;
+  color: #292826;
+}
+
+.arrow {
+  margin-left: -27px;
+  border: 0px;
+  background-color: transparent;
+}
+
+.form-email:hover {
+  border: 1px solid #aaa;
+}
+
+.social a {
+  display: inline-block;
+  margin-top: 17px;
+  margin-right: 7px;
+  text-decoration: none;
+   
+}
+
+.end {
+  display: inline-block;
+  margin-top: 35px;
+  margin-left: 40px;
+}
+
+.nav-end {
+  display: flex;
+  line-height: 24px;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+.end-link {
+  margin-top: 2px;
+  margin-left: 0px;
+  margin-right: 16px;
+  margin-bottom: 20px;
+  width: 160px;
+  font-family: "Circe";
+  font-style: regular;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #292826;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.footer-menu-link:hover,
+footer-menu-link:focus,
+footer-menu-link:active {
+  opacity: 0.6;
+}
