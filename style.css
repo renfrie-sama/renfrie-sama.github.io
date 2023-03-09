@@ -9,8 +9,8 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("Circe") local("Circe-Regular") url('./Fonts/Circe-Regular.woff2') format('woff2'),
-    url("./Fonts/Circe-Regular.woff") format("woff");
+  src: local("Circe") local("Circe-Regular") url('/Fonts/Circe-Regular.woff2') format('woff2'),
+    url("/Fonts/Circe-Regular.woff") format("woff");
 }
 
 @font-face {
@@ -18,8 +18,8 @@
   font-style: bold;
   font-weight: 600;
   font-display: swap;
-  src: local("Neue Machina") url('./Fonts/NeueMachina-Bold.woff2') format('woff2'),
-    url('./Fonts/NeueMachina-Bold.woff') format('woff');
+  src: local("Neue Machina") url('/Fonts/NeueMachina-Bold.woff2') format('woff2'),
+    url('/Fonts/NeueMachina-Bold.woff') format('woff');
 }
 
 .body {
