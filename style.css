@@ -218,13 +218,12 @@
 .nav-end {
   display: flex;
   line-height: 24px;
+  align-items: baseline;
   justify-content: space-between;
   width: 1000px;
 }
 
 .end-link {
-  margin-top: 2px;
-  margin-left: 0px;
   margin-right: 16px;
   margin-bottom: 20px;
   width: 160px;
