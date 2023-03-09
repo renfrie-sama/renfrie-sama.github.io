@@ -46,12 +46,12 @@
 }
 
 .collection:nth-child(4n+1) {
-    color: white;  
+    color: #FFFFFF;  
   }
 
 .new-collection img {
   margin-left: 10px;
-  margin-right: 10px;
+  margin-right: 9px;
   padding-right: 0px;
 }
 
