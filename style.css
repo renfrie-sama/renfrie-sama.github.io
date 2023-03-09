@@ -135,11 +135,11 @@
   display: flex;  
   justify-content: space-between;
   width: 1000px;
-  padding: 50px 40px 4px 40px;
+  padding: 48px 40px 4px 40px;
 }
 
 .text p{
-  margin-bottom: 23px;
+  margin-bottom: 24px;
   font-family: "Circe";
   font-size: 20px;  
   line-height: 24px;
